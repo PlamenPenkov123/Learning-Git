@@ -16,17 +16,25 @@
     <div class="Formular">
       <div class="Login">
         <h2>Login</h2>
-        <input type="text" name="username" id="LoginUsername" />
-        <input type="password" name="password" id="LoginPassword" />
-        <button>Login</button>
+        <form action="LoggedIn.html" method="get">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="" required />
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="" required />
+          <input type="submit" name="" id="" value="Login" />
+        </form>
       </div>
       <div class="SignUp">
         <h2>Sign Up</h2>
-        <input type="text" name="username" id="SignUpUsername" />
-        <input type="email" name="email" id="SighUpEmail" />
-        <input type="password" name="password" id="SighUpPassword" />
-        <input type="password" name="password" id="RepeatPassword" />
-        <button>Sign Up</button>
+        <form action="Registered.html" method="get">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="" required />
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="" required />
+          <label for="reppassword">Repeat Password:</label>
+          <input type="password" name="reppassword" id="" required />
+          <input type="submit" name="" id="" value="Register" />
+        </form>
       </div>
     </div>
   </body>

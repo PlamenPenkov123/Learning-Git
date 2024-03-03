@@ -24,3 +24,7 @@ body {
   border: 1px solid black;
   border-radius: 4%;
 }
+form {
+  display: flex;
+  flex-direction: column;
+}
