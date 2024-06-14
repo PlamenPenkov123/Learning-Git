@@ -1,30 +1,7 @@
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+body{
+    background-color: lightblue;
 }
-.Formular {
-  display: flex;
-  justify-content: center;
-}
-.Login {
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-  margin: 5px;
-  text-align: center;
-  border: 1px solid black;
-  border-radius: 4%;
-}
-.SignUp {
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-  margin: 5px;
-  text-align: center;
-  border: 1px solid black;
-  border-radius: 4%;
-}
-form {
-  display: flex;
-  flex-direction: column;
+h1{
+    color: navy;
+    margin: 20px;
 }
