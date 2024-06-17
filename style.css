@@ -9,3 +9,10 @@ h1{
     color: navy;
     margin: 20px;
 }
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0111f5;
+    color: whitesmoke;
+}
