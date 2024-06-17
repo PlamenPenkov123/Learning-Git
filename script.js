@@ -7,4 +7,5 @@ function ChangeColor(){
     console.log(bgColor);
 
     document.body.style.backgroundColor = bgColor;
+    document.getElementById('result').innerHTML = bgColor;
 }
